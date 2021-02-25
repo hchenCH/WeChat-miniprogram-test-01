@@ -1,0 +1,17 @@
+<!--pages/demo2-1/button.wxml-->
+<button type="primary">{{btnText}}</button>
+<text>{{content}}</text>
+<view id ='{{id}}'>测试组件属性绑定</view>
+<view wx:if="{{condition}}">测试控制属性绑定</view>
+<view wx:if="{{false}}">关键字绑定测试 false</view>
+<view wx:if="{{true}}">关键字绑定测试 true</view>
+<view class='container'>
+  <view class='page-body'>
+    <text class='h1'>button组件的简单实用案例</text>
+    <view class ='demo-box'>
+      <view class ="tytle">不同类型的button样式</view>
+        <button type="default">default</button>
+        <button type="primary">primary</button>
+    </view>
+  </view>
+</view>
